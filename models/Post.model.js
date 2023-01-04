@@ -9,6 +9,7 @@ const postSchema = new Schema(
     },
     body: {
       type: String,
+      required: true
     },
     author: {
         type: Schema.Types.ObjectId

@@ -9,6 +9,9 @@ const postSchema = new Schema(
     body: {
       type: String,
     },
+    author: {
+        type: Schema.Types.ObjectId
+    }
   },
   {
     // this second object adds extra properties: `createdAt` and `updatedAt`
